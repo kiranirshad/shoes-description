@@ -1,0 +1,82 @@
+.card-img-top {
+  height: 100%;
+  width: 58%;
+}
+.price {
+  font-weight: bold;
+  font-size: 30px;
+}
+.card-title {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+.card-subtitle {
+  font-style: italic;
+  color: grey;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.grey {
+  color: grey;
+}
+.color {
+  display: flex;
+  justify-content: space-between;
+}
+.sample-image > img{
+    width: 60px;
+    border: 3px solid #dddddd;
+}
+.detail-list > p{
+    font-weight: bold;
+}
+.detail-list  .find{
+    text-decoration: underline;
+    font-weight: normal;
+}
+.buttons{
+    margin-top: 12px;
+    display: flex;
+}
+.buttons>button{
+    flex: 1;
+    margin: 4px;
+    padding: 16px 0px 16px 0px;
+    font-weight: bold;
+}
+.orange{
+    background-color: #ee522f;
+    color: white;
+}
+.spans *{
+    text-decoration: underline;
+}
+.spans{
+    display: flex;
+}
+.force{
+    display: flex;
+    margin-right: auto;
+}
+
+.space{
+    margin-left: 6px;
+}
+.details-p{
+    font-weight: bold;
+}
+.timmings>p{
+  
+   margin: 0px;
+   
+}
+.bold{
+    font-weight: lighter;
+}
+.bolder{
+    font-weight: bold;
+}
